@@ -1,12 +1,13 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
 import HelloSection from './views/HelloSection.vue';
+import AboutSection from './views/AboutSection.vue';
 
 </script>
 
 <template>
   <HelloSection/>
-
+  <AboutSection/>
   <RouterView />
 </template>
 

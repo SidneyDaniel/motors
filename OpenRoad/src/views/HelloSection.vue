@@ -40,7 +40,8 @@ export default {
 main{
   background-size: cover;
   background-attachment: fixed;
-  height: 90vh;
+  /* height: 90vh; */
+  min-height: 100vh;
   /* padding: 2rem; */
 }
 
