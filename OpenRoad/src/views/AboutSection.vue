@@ -19,8 +19,26 @@ export default {
 <template>
     <main style="min-height: 100vh; display: flex; flex-direction: row;">
      
-     <div class="banner" :style="image">
+     <div class="banner" >
+       <h1 class="banner-title">
+          Unique 
+          <br> 
+          <span class="banner-title-span">And</span>
+          <br> 
+          Powerful 
+       </h1>
 
+       <div class="banner-card">
+          <hgroup>
+            <h1 class="banner-card-text">80+</h1>
+            <p class="banner-card-text-p">Projects done</p>
+          </hgroup>
+
+          <hgroup>
+            <h1 class="banner-card-text">60+</h1>
+            <p class="banner-card-text-p">Satisfieds Clients</p>
+          </hgroup>
+       </div>
      </div>
 
       <div class="about">
@@ -69,6 +87,79 @@ export default {
   width: 50%;
 }
 
+/* .banner{
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  transform: translateZ(0);
+} */
+
+.banner{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  gap: 7rem;
+  z-index: 1;
+}
+
+.banner::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../src/assets/backgrounds/backgroundHello2.svg');
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  transform: translateZ(0);
+  filter: brightness(0.5);
+
+}
+
+.banner-title{
+  font-size: clamp(2.8em, 5vw, 5.3rem);
+  font-family: var(--Major);
+  position: relative;
+  font-weight: bolder;
+  z-index: 2;
+}
+
+.banner-title-span{
+  font-family: inherit;
+  font-variant: small-caps;
+  font-weight: inherit;
+}
+
+
+.banner-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 1rem;
+  align-self: baseline;
+  width: 28rem;
+  height: 10.5rem;
+  background:  rgba(0, 0, 0, 0.67);
+  border-left: 10px solid #ed0000;;
+  z-index: 2;
+}
+
+.banner-card hgroup{
+  width: 50%;
+}
+
+.banner-card-text{
+  font-family: var(--Antonio);
+  font-size: 4rem;
+}
+
+.banner-card-text-p{
+  font-family: var(--Rubik);
+}
+
 .about{
   gap: 3rem;
   padding: 2rem;
@@ -78,8 +169,11 @@ export default {
   text-align: justify;
 }
 
+
 .title{
-  font-size: clamp(2.8em, 5vw, 2.5rem);
+  font-size: clamp(2.8em, 5vw, 3.5rem);
+  border-top: 1px solid #ed0000;
+  width: max-content;
 }
 
 .aboutText{
