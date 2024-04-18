@@ -2,13 +2,15 @@
 import { RouterLink, RouterView } from 'vue-router'
 import HelloSection from './views/HelloSection.vue';
 import AboutSection from './views/AboutSection.vue';
+import WhatWeDoSection from './views/WhatWeDoSection.vue';
 
 </script>
 
 <template>
   <HelloSection/>
   <AboutSection/>
-  <RouterView />
+  <WhatWeDoSection/>
+  <!-- <RouterView /> -->
 </template>
 
 <style scoped>
