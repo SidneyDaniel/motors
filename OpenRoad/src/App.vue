@@ -3,6 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 import HelloSection from './views/HelloSection.vue';
 import AboutSection from './views/AboutSection.vue';
 import WhatWeDoSection from './views/WhatWeDoSection.vue';
+import WhyChooseSection from './views/WhyChooseSection.vue';
 
 </script>
 
@@ -10,6 +11,7 @@ import WhatWeDoSection from './views/WhatWeDoSection.vue';
   <HelloSection/>
   <AboutSection/>
   <WhatWeDoSection/>
+  <WhyChooseSection/>
   <!-- <RouterView /> -->
 </template>
 
