@@ -1,5 +1,5 @@
 <script lang="js">
-import 'primeicons/primeicons.css'
+// import 'primeicons/primeicons.css';
 import toolBar from '@/components/toolBar.vue';
 import Image from 'primevue/image';
 import AnimateOnScroll from 'primevue/animateonscroll';

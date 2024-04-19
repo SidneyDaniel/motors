@@ -4,6 +4,9 @@ import HelloSection from './views/HelloSection.vue';
 import AboutSection from './views/AboutSection.vue';
 import WhatWeDoSection from './views/WhatWeDoSection.vue';
 import WhyChooseSection from './views/WhyChooseSection.vue';
+import HowWorksSection from './views/HowWorksSection.vue'
+
+import 'primeicons/primeicons.css';
 
 </script>
 
@@ -11,6 +14,7 @@ import WhyChooseSection from './views/WhyChooseSection.vue';
   <HelloSection/>
   <AboutSection/>
   <WhatWeDoSection/>
+  <HowWorksSection/>
   <WhyChooseSection/>
   <!-- <RouterView /> -->
 </template>

@@ -49,7 +49,7 @@ export default {
         <Fieldset>
             <template #legend>
                 <div class="flex align-items-center pl-2">
-                    <span class="font-bold">Vision</span>
+                    <span class="font-bold"> <i class="pi pi-eye" style="color: #D30F20;"></i>Vision</span>
                 </div>
             </template>
             <p class="m-0">
@@ -61,7 +61,7 @@ export default {
         <Fieldset>
             <template #legend>
                 <div class="flex align-items-center pl-2">
-                    <span class="font-bold">Mission</span>
+                    <span class="font-bold"> <i class="pi pi-bullseye" style="color: #D30F20;"></i>Mission</span>
                 </div>
             </template>
             <p class="m-0">
@@ -216,5 +216,15 @@ export default {
     border-radius: 6px;
 }
 
+
+.p-fieldset .p-fieldset-legend span {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.p-fieldset .p-fieldset-legend span .pi{
+  font-size: 1.3rem;
+}
 
 </style>
