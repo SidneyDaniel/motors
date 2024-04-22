@@ -10,7 +10,7 @@ export default {
     name: "WhyChooseSection",
   data() {
     return {
-      image: { backgroundImage: "url(../src/assets/backgrounds/background10.svg)" }
+      image: { backgroundImage: "url(../src/assets/backgrounds/background10.2.svg)",backgroundAttachment: 'fixed' }
     };
   }
 };

@@ -5,6 +5,7 @@ import AboutSection from './views/AboutSection.vue';
 import WhatWeDoSection from './views/WhatWeDoSection.vue';
 import WhyChooseSection from './views/WhyChooseSection.vue';
 import HowWorksSection from './views/HowWorksSection.vue'
+import ProjectsSection from './views/ProjectsSection.vue'
 
 import 'primeicons/primeicons.css';
 
@@ -16,6 +17,7 @@ import 'primeicons/primeicons.css';
   <WhatWeDoSection/>
   <HowWorksSection/>
   <WhyChooseSection/>
+  <ProjectsSection/>
   <!-- <RouterView /> -->
 </template>
 
