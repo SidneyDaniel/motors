@@ -20,9 +20,9 @@ export default {
             <template #start>
                 <div class="flex align-items-center gap-2" style="display: flex; gap: 1.5rem;">
                     <Avatar image="/src/assets/motorcycles.svg" class="mr-2" size="large" shape="circle" />
-                    <Button label="Files" text plain ></Button>
-                    <Button label="Edit" text plain ></Button>
-                    <Button label="View" text plain ></Button>
+                    <Button label="Ínicio" text plain ></Button>
+                    <Button label="Sobre" text plain ></Button>
+                    <Button label="Contato" text plain ></Button>
                 </div>
             </template>
 

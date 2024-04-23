@@ -7,6 +7,7 @@ import WhyChooseSection from './views/WhyChooseSection.vue';
 import HowWorksSection from './views/HowWorksSection.vue'
 import ProjectsSection from './views/ProjectsSection.vue'
 import ContactSection from './views/ContactSection.vue'
+import Footer from './views/Footer.vue'
 
 import 'primeicons/primeicons.css';
 
@@ -20,6 +21,7 @@ import 'primeicons/primeicons.css';
   <WhyChooseSection/>
   <ProjectsSection/>
   <ContactSection/>
+  <Footer/>
   <!-- <RouterView /> -->
 </template>
 
